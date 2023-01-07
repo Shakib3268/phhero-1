@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 15px 15px;
+}
+/* Banner section */
+.banner {
+  text-align: right !important;
+  max-width: 525px !important;
+  max-height: 228px !important;
+  margin-left: 40%;
+  margin-top: -20%;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 40px;
+}
+
+.banner-description {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+/* failure-style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.failure {
+  margin-top: 10%;
+}
+
+.failure h6 {
+  line-height: 26px;
+  color: gray;
+}
+
+.failure-box {
+  display: flex;
+  align-items: center;
+  margin-top: 110px;
+  gap: 154px;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.failure-description {
+  margin-bottom: 24px;
+  color: gray;
+}
+
+/* skills style */
+
+.plan {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 100px;
+}
+
+.skills img {
+  text-align: center !important;
+  margin-left: 15%;
+}
+
+.skills {
+  border-radius: 5px;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #181818;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.skills-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #757575;
+}
+
+/* contract */
+
+.contact {
+  display: flex;
+  background: #151414;
+  color: #f8f8f8;
+  margin-top: 130px;
+  padding: 130px 220px;
+  gap: 40px;
+}
+
+.contact .section-title {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.contact input {
+  margin-bottom: 16px;
+  line-height: 64px;
+  width: 324px;
+}
+
+.contact .btn-primary {
+  background: white;
+  color: #fd6e0a;
+  padding: 20px 35px;
+}
+
+.info-title {
+  line-height: 26px;
+  color: #ffffff;
+}
+.info-description {
+  line-height: 26px;
+  color: #ffffff;
+}
+.contact-description {
+  line-height: 26px;
+}
+
+.contact a {
+  line-height: 40px;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5px;
+  padding: 0 5px;
+}
