@@ -164,3 +164,7 @@ main {
   border-radius: 5px;
   padding: 0 5px;
 }
+
+.contact p{
+  margin-bottom: 16px;
+}
